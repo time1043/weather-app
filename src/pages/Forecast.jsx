@@ -1,4 +1,4 @@
-import ForecastWeather from "../features/forecast/ForecastWeather";
+import ForecastWeather from "@/features/forecast/ForecastWeather";
 
 function Forecast({ position }) {
   return <ForecastWeather {...{ position }} />;

@@ -1,5 +1,5 @@
+import { useForecastWeather } from "@/hooks/useWeather";
 import { List } from "@mui/material";
-import { useForecastWeather } from "../../hooks/useWeather";
 import ForecastListItem from "./ForecastListItem";
 // import { weatherForecasts } from "../../mock/weather"
 

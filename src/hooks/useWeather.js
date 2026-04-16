@@ -1,8 +1,8 @@
+import { API_URL } from "@/constants/api";
+import { searchParams } from "@/services/apiWeather";
+import { fetcher, getCurrentWeatherApi } from "@/services/fetcher";
 import useSWR from "swr";
 import useSWRMutation from "swr/mutation";
-import { searchParams } from "../services/apiWeather";
-import { fetcher, getCurrentWeatherApi } from "../services/fetcher";
-import { API_URL } from "../constants/api";
 
 export function useCurrentWeather({ getPosition }) {
   const { trigger, data, isMutating, error } = useSWRMutation(

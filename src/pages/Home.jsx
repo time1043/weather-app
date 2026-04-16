@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
-import CurrentWeather from "../features/current/CurrentWeather";
-import { useCurrentWeather } from "../hooks/useWeather";
+import { useCurrentWeather } from "@/hooks/useWeather";
+import CurrentWeather from "@/features/current/CurrentWeather";
 
 function Home({ getPosition, setIsHome }) {
   const { getCurrentWeather, data, isMutating } = useCurrentWeather({
